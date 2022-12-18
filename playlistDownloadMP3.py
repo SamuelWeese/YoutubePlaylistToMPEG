@@ -2,7 +2,8 @@
 import pytube
 import os
 
-playlistURL = 'https://www.youtube.com/watch?v=TPmNm7i5q70&list=PL4Xt6BiyJc-53UGHO7aXKzhu7hdSJ3PI3&index=1&ab_channel=PUNCAKELyrics'
+playlistURL = 'enter playlist here, or feed in some matter'
+playlistURL = input('Enter your playlist url:')
 aPlaylist = pytube.contrib.playlist.Playlist(playlistURL)
 
 destination = './Music'
